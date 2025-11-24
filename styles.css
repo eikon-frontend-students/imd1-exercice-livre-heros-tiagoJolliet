@@ -1,8 +1,59 @@
 body {
-  background-color: #1a1a1a;
-  color: white;
+  font-family: Arial, sans-serif;
+  background: #455762;
 }
 
-a {
+.container {
+  height: 100vh;
+  width: auto;
+  margin: auto;
+  background: #6a7d8b;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.image1 {
+  max-width: auto;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+div.text-box {
+  width: 60%;
+  font-size: 20px;
+  line-height: 1.6;
+  display: flex;
+}
+
+.choices {
+  margin-top: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.choice-btn {
+  background: #576772;
+  padding: 15px 40px;
+  border-radius: 12px;
   color: white;
+  text-decoration: none;
+  font-size: 30px;
+  transition: 0.2s;
+  transform: translateY(6px) scale(0.97);
+  box-shadow: 0 1px 0 #323131;
+}
+
+.choice-btn:hover {
+  background: #475862;
 }
